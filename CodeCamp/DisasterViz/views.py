@@ -1,10 +1,10 @@
 # Create your views here.
 from django.http import *
 from DisasterData import *
-
+from django.shortcuts import render,render_to_response
 
 def index(request):
-    return HttpResponse('<img src="Nepal_Zones.svg"></img>')
+    return render(request,'index.html',{})
 
 def image(request):
     a = HttpResponse(open('Nepal_Zones.svg','r').read(),mimetype="image/svg+xml")
