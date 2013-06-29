@@ -4,7 +4,7 @@ from DisasterData import *
 from django.shortcuts import render,render_to_response
 
 def index(request):
-    return render(request,'index.html',{})
+    return render(request,'index.html',{'yearset':[],'disasterset':[],'typeset':[],'districtset':[]})
 
 def image(request):
     a = HttpResponse(open('Nepal_Zones.svg','r').read(),mimetype="image/svg+xml")
