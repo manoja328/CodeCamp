@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="98c8d5c0-49a0-477e-806a-663c05c70b44" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodeCamp/DisasterViz/DisasterData.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CodeCamp/CodeCamp/urls.py" afterPath="$PROJECT_DIR$/CodeCamp/CodeCamp/urls.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CodeCamp/DisasterViz/DisasterData.py" afterPath="$PROJECT_DIR$/CodeCamp/DisasterViz/DisasterData.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CodeCamp/DisasterViz/views.py" afterPath="$PROJECT_DIR$/CodeCamp/DisasterViz/views.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CodeCamp/Nepal_zones.svg" afterPath="$PROJECT_DIR$/CodeCamp/Nepal_zones.svg" />
     </list>
     <ignored path="CodeCamp.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -40,7 +37,7 @@
       <file leaf-file-name="views.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CodeCamp/DisasterViz/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="40" selection-start="340" selection-end="340" vertical-scroll-proportion="0.0">
+            <state line="13" column="4" selection-start="304" selection-end="304" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="e#26#51#0" expanded="true" />
               </folding>
@@ -51,7 +48,7 @@
       <file leaf-file-name="DisasterData.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/CodeCamp/DisasterViz/DisasterData.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="40" column="25" selection-start="1064" selection-end="1064" vertical-scroll-proportion="0.727758">
+            <state line="42" column="4" selection-start="1064" selection-end="1064" vertical-scroll-proportion="0.21352313">
               <folding>
                 <element signature="e#23#36#0" expanded="true" />
               </folding>
@@ -94,8 +91,8 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/CodeCamp/DisasterViz/views.py" />
         <option value="$PROJECT_DIR$/CodeCamp/CodeCamp/urls.py" />
+        <option value="$PROJECT_DIR$/CodeCamp/DisasterViz/views.py" />
         <option value="$PROJECT_DIR$/CodeCamp/DisasterViz/DisasterData.py" />
       </list>
     </option>
@@ -311,7 +308,7 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25872535" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25872535" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
@@ -403,7 +400,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/CodeCamp/DisasterViz/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="40" selection-start="340" selection-end="340" vertical-scroll-proportion="0.0">
+        <state line="13" column="4" selection-start="304" selection-end="304" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="e#26#51#0" expanded="true" />
           </folding>
@@ -412,7 +409,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/CodeCamp/DisasterViz/DisasterData.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="25" selection-start="1064" selection-end="1064" vertical-scroll-proportion="0.727758">
+        <state line="42" column="4" selection-start="1064" selection-end="1064" vertical-scroll-proportion="0.21352313">
           <folding>
             <element signature="e#23#36#0" expanded="true" />
           </folding>

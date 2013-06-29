@@ -12,8 +12,8 @@ def image(request):
 
 def genmap(request):
     a = gendisasterdata(genfunction_bydeaths)
-    #return HttpResponse(a,mimetype='image/svg+xml')
-    return HttpResponse(repr(a))
+    return HttpResponse(a,mimetype='image/svg+xml')
+
 
 
 
