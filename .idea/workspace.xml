@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="98c8d5c0-49a0-477e-806a-663c05c70b44" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CodeCamp/CodeCamp/urls.py" afterPath="$PROJECT_DIR$/CodeCamp/CodeCamp/urls.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CodeCamp/DisasterViz/DisasterData.py" afterPath="$PROJECT_DIR$/CodeCamp/DisasterViz/DisasterData.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CodeCamp/DisasterViz/views.py" afterPath="$PROJECT_DIR$/CodeCamp/DisasterViz/views.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CodeCamp/templates/base.html" afterPath="$PROJECT_DIR$/CodeCamp/templates/base.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CodeCamp/templates/index.html" afterPath="$PROJECT_DIR$/CodeCamp/templates/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CodeCamp/templates/style.css" afterPath="$PROJECT_DIR$/CodeCamp/templates/style.css" />
     </list>
     <ignored path="CodeCamp.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,16 +32,16 @@
       <file leaf-file-name="manage.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CodeCamp/manage.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="31" selection-start="102" selection-end="102" vertical-scroll-proportion="0.0">
+            <state line="10" column="0" selection-start="251" selection-end="251" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="views.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="views.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CodeCamp/DisasterViz/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="101" selection-start="256" selection-end="256" vertical-scroll-proportion="0.18149467">
+            <state line="58" column="146" selection-start="2457" selection-end="2457" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="e#26#51#0" expanded="true" />
               </folding>
@@ -45,10 +49,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/CodeCamp/templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="136" column="0" selection-start="2974" selection-end="2974" vertical-scroll-proportion="-15.807693">
+            <state line="93" column="66" selection-start="2611" selection-end="2611" vertical-scroll-proportion="0.5655577">
               <folding />
             </state>
           </provider>
@@ -66,7 +70,7 @@
       <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CodeCamp/templates/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="13" selection-start="334" selection-end="334" vertical-scroll-proportion="0.0">
+            <state line="13" column="10" selection-start="156" selection-end="156" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -75,7 +79,7 @@
       <file leaf-file-name="DisasterData.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CodeCamp/DisasterViz/DisasterData.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="46" column="17" selection-start="1154" selection-end="1154" vertical-scroll-proportion="0.0">
+            <state line="135" column="0" selection-start="4265" selection-end="4265" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="e#23#36#0" expanded="true" />
               </folding>
@@ -86,7 +90,7 @@
       <file leaf-file-name="urls.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CodeCamp/CodeCamp/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="22" selection-start="194" selection-end="194" vertical-scroll-proportion="0.0">
+            <state line="13" column="19" selection-start="368" selection-end="368" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="e#0#51#0" expanded="true" />
               </folding>
@@ -97,7 +101,7 @@
       <file leaf-file-name="settings.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CodeCamp/CodeCamp/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="68" column="23" selection-start="2437" selection-end="2437" vertical-scroll-proportion="-0.68">
+            <state line="74" column="59" selection-start="2560" selection-end="2560" vertical-scroll-proportion="-4.76">
               <folding />
             </state>
           </provider>
@@ -118,13 +122,13 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
+        <option value="$PROJECT_DIR$/CodeCamp/CodeCamp/settings.py" />
+        <option value="$PROJECT_DIR$/CodeCamp/templates/base.html" />
         <option value="$PROJECT_DIR$/CodeCamp/CodeCamp/urls.py" />
         <option value="$PROJECT_DIR$/CodeCamp/DisasterViz/DisasterData.py" />
-        <option value="$PROJECT_DIR$/CodeCamp/templates/index.html" />
-        <option value="$PROJECT_DIR$/CodeCamp/CodeCamp/settings.py" />
-        <option value="$PROJECT_DIR$/CodeCamp/templates/style.css" />
-        <option value="$PROJECT_DIR$/CodeCamp/templates/base.html" />
         <option value="$PROJECT_DIR$/CodeCamp/DisasterViz/views.py" />
+        <option value="$PROJECT_DIR$/CodeCamp/templates/style.css" />
+        <option value="$PROJECT_DIR$/CodeCamp/templates/index.html" />
       </list>
     </option>
   </component>
@@ -338,6 +342,13 @@
       <option name="USE_PATTERN" value="false" />
       <method />
     </configuration>
+    <configuration default="true" type="JavascriptDebugSession" factoryName="Local">
+      <JSDebuggerConfigurationSettings>
+        <option name="engineId" />
+        <option name="fileUrl" />
+      </JSDebuggerConfigurationSettings>
+      <method />
+    </configuration>
     <list size="0" />
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
@@ -375,7 +386,7 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25872535" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25872535" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
@@ -442,49 +453,19 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/CodeCamp/manage.py">
+    <entry file="file://$PROJECT_DIR$/CodeCamp/CodeCamp/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="31" selection-start="102" selection-end="102" vertical-scroll-proportion="0.0">
+        <state line="74" column="59" selection-start="2560" selection-end="2560" vertical-scroll-proportion="-4.76">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CodeCamp/CodeCamp/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="22" selection-start="194" selection-end="194" vertical-scroll-proportion="0.0">
+        <state line="13" column="19" selection-start="368" selection-end="368" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="e#0#51#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CodeCamp/DisasterViz/DisasterData.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="17" selection-start="1154" selection-end="1154" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#23#36#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CodeCamp/CodeCamp/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="68" column="23" selection-start="2437" selection-end="2437" vertical-scroll-proportion="-0.68">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CodeCamp/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="136" column="0" selection-start="2974" selection-end="2974" vertical-scroll-proportion="-15.807693">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CodeCamp/templates/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="13" selection-start="334" selection-end="334" vertical-scroll-proportion="0.0">
-          <folding />
         </state>
       </provider>
     </entry>
@@ -495,12 +476,42 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/CodeCamp/DisasterViz/DisasterData.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="135" column="0" selection-start="4265" selection-end="4265" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#23#36#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CodeCamp/manage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="0" selection-start="251" selection-end="251" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/CodeCamp/DisasterViz/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="101" selection-start="256" selection-end="256" vertical-scroll-proportion="0.18149467">
+        <state line="58" column="146" selection-start="2457" selection-end="2457" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="e#26#51#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CodeCamp/templates/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="10" selection-start="156" selection-end="156" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CodeCamp/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="93" column="66" selection-start="2611" selection-end="2611" vertical-scroll-proportion="0.5655577">
+          <folding />
         </state>
       </provider>
     </entry>

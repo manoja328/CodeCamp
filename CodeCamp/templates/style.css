@@ -12,7 +12,7 @@ th
 }
 
 #content {
-	width: 850px;
+	width: 1300px;
 	margin: 0 auto;
 	padding: 12px 0 40px;
 	font: 0.85em arial;
@@ -42,13 +42,19 @@ div.left {
 	display: block;
 }
 
-#right {
-	padding:50px;
+.right {
 	float:right;
+}
+.left {
+    float:left;
 }
 
 .error {
 	color: red;
+}
+
+.success {
+    color: #adff2f;
 }
 
 td
