@@ -2,7 +2,7 @@
 from django.http import *
 from DisasterData import *
 from django.shortcuts import render,render_to_response
-from DisasterData import disaster_set, district_set, year_set
+from DisasterData import disaster_set, district_set, year_set,disdata
 
 def index(request):
     Response_string = ""
@@ -13,13 +13,13 @@ def index(request):
         print Input_type
         if Input_type == 'graph' or Input_type == "map":
             Year = request.POST.get('year')
-            Response_string += "Year : " + Year + " "
+            Response_string += "Year :  " + Year + "  "
             Disaster = request.POST.get('disaster')
-            Response_string += "Disaster : " + Disaster+ " "
+            Response_string += "Disaster :  " + Disaster+ "  "
             District =  request.POST.get('district')
-            Response_string += "District : " + District + " "
+            Response_string += "District :  " + District + "  "
             Type = request.POST.get('type')
-            Response_string += "CasualtyType : " + Type + " "
+            Response_string += "CasualtyType :  " + Type + "  "
             if Input_type == "map":
                 gendisasterdata(Year,Disaster,Type)
             elif Input_type == "graph":
@@ -51,6 +51,8 @@ def index(request):
             if error == True:
                 error = "One or more values not present"
             else:
+                disdata.append({'disaster':Disaster,'district':District,'source':Source,'date':Date,'deaths':Deaths,
+                                'injured':Injured,'missing':Missing})
                 success = "Value added successfully"
 
     #return render(request,'index.html',{'yearset':[],'disasterset':[],'typeset':("ALL","Deaths","Injured","Missing"),
@@ -63,6 +65,7 @@ def image(request):
     return a
 
 def genmap(request):
+    print "GenMap"
     a = HttpResponse(open('NepalMap.svg','r').read(),mimetype="image/svg+xml")
     return a
 

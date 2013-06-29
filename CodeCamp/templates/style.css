@@ -12,20 +12,21 @@ th
 }
 
 #content {
-	width: 1300px;
+	width: 1200px;
 	margin: 0 auto;
-	padding: 12px 0 40px;
+	padding: 1px 0 4px;
 	font: 0.85em arial;
 
 }
 
 .header {
-	height: 80px;
+	height: 50px;
 	text-align: center;
 	background-color: #f57e1e;
 }
 
 .footer {
+    padding-top: 10px;
 	background-color: #f57e1e;
     height: 100px;
 }

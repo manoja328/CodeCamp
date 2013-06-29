@@ -53,8 +53,8 @@ def genfunction_bycasualty(year,disaster,type):
 def genfunction_byyear(district,disaster,type):
     a = {}
     sys.stdout = open("Output.txt","w")
-    print "Hello world"
-    print disaster, disaster, type
+    #print "Hello world"
+    #print disaster, disaster, type
     for elements in disdata:
         if elements['district'] == district or district == "ALL":
             if elements['disaster'] == disaster or disaster == 'ALL':
@@ -79,9 +79,9 @@ def gendisasterdata(year='ALL',disaster='ALL',type='ALL'):
 
 
 def constructcolor(r,g,b):
-    print r,g,b
+    #print r,g,b
     r,g,b = int(r),int(g),int(b)
-    print r,g,b
+    #print r,g,b
     r = hex(r)[2:]
     g = hex(g)[2:]
     b = hex(b)[2:]

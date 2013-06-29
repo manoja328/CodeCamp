@@ -11,8 +11,9 @@
 
     <div class="tabcontents">
         <div id="Map" class="tabcontent">
-        	{{ Response_string }}
-        	<div id="left">
+            <b>{{response_string}}</b>
+            <div class="left"><img src="/Map" width=800 height=400> </img></div>
+        	<div class="right">
         	<form method="post">
 		    	{% csrf_token %}
 	
@@ -75,12 +76,12 @@
 			    <input type="submit" value="submit">
 		    </form>
 			</div>
-            <div class="right"><img src="/Map" width=800 height=400> </img></div>
 
 		</div>
 
 		<div id="Graph" class="tabcontent">
-            {{Response_string}}
+            <b>{{response_string}}</b>
+            <div class="left">
 			<form method="post">
 		    	{% csrf_token %}
 	
@@ -139,9 +140,10 @@
 						    </td>
 					    </tr>
 				    </table>
-			    <input type="hidden" name="input_type" value="map">
+			    <input type="hidden" name="input_type" value="graph">
 			    <input type="submit" value="submit">
 		    </form>
+            </div>
             <div class="right"><img src="/Trend" width=800 height=400> </img></div>
 		</div>
 
@@ -209,13 +211,7 @@
 							<input type="text" name="missing" value="">
 						</td>
 					</tr>
-					<tr>	
-						<td><b>Victims</b></td>
-						<td></td>	
-						<td>
-							<input type="text" name="victims" value="">
-						</td>
-					</tr>
+
 				</table>
 				<input type="hidden" name="input_type" value="entry">
 				<br>
